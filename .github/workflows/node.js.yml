@@ -33,7 +33,7 @@ jobs:
 
       # Add your deployment step here. For Railway, use the Railway CLI.
       - name: Install Railway CLI
-        run: npm install -g railway
+        run: npm install -g @railway/cli
 
       - name: Deploy to Railway
         if: github.ref == 'refs/heads/main'
