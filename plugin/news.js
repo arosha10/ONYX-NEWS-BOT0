@@ -34,7 +34,7 @@ async function sendNewsToGroups(robin, news) {
     } catch {}
   }
   const linkText = news.link ? news.link : 'ලබාගත නොහැක';
-  const newsText = `📰 *${news.title || 'No title'}*\n\n${news.description || ''}\n\nවැඩි විස්තර: ${linkText}\n🗓️ දිනය: ${formattedDate}`;
+  const newsText = `*NEWS UPDATE (ONYX) ✅*\n\n📰 *${news.title || 'No title'}*\n\n${news.description || ''}\n\nවැඩි විස්තර: ${linkText}\n🗓️ දිනය: ${formattedDate}\n\n> *BY AROSH SAMUDITHA*`;
   for (const groupId of GROUP_IDS) {
     try {
       if (news.image) {
