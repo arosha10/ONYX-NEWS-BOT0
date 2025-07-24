@@ -4,8 +4,11 @@ const path = require("path");
 
 // List of WhatsApp group/channel IDs to broadcast news to
 const GROUP_IDS = [
+  // Channels and groups for news updates
   "1203630xxxxxx@g.us", // Example group ID
-  "1203630yyyyyy@g.us"  // Add your real group/channel IDs here
+  "1203630yyyyyy@g.us", // Example group ID
+  "1203630EF9UYtCK2WR0MW37KZ98VI@g.us", // NEWS UPDATE (ONYX) WhatsApp group
+  "0029VbB4ua9JENxx3HVhZV0W-1@channel.whatsapp.net" // NEWS UPDATE (ONYX) WhatsApp channel
 ];
 
 const LAST_NEWS_FILE = path.join(__dirname, '../data/lastnews.json');
