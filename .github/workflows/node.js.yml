@@ -45,7 +45,7 @@ jobs:
           npm install -g @railway/cli
           railway up
         env:
-          RAILWAY_TOKEN: ${{ secrets.1275632f-52b7-4fde-bfbc-3769edea1cc9 }}
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
 
       - name: Keep workflow alive
         run: sleep 21540
